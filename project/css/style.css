@@ -245,3 +245,40 @@ p{
 .map-canvas {
   	height: 100%;
 }
+
+/*custom*/
+.circular_up {
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.circular_down {
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.circular_up img {
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
+.circular_down img {
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+.wrapper_up{
+    margin-top: 40px;
+}
+.wrapper_down{
+    padding: 0 10%;
+}
