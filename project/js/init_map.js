@@ -11,7 +11,8 @@ const MAP_OPTIONS = {
         lat: CENTER_LAT,
         lng: CENTER_LNG
     },
-    zoom: CENTER_ZOOM
+    zoom: CENTER_ZOOM,
+    scrollwheel: false
 };
 
 const DATA_PATH = "data/08to16data_with_latlng.csv";

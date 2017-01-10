@@ -243,7 +243,8 @@ p{
  }
 
 .map-canvas {
-  	height: 100%;
+	width: 90%;
+  	height: 90%;
 }
 
 /*custom*/
