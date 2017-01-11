@@ -50,7 +50,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-              sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+              sectionsColor: ['#1bbc9b', '#a3ccff', '#ffffff', 'whitesmoke', '#ccddff'],
               anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage'],
               menu: '#menu',
             });
@@ -74,8 +74,7 @@
 <div id="fullpage">
     <div class="section active" id="section1">
         <div class="slide active" id="slide1-1">
-            
-            <p><span style="font-size:70px;font-family:Microsoft YaHei;"><b>飛機失事知多少?</b></p>
+             <p><span style="font-size:70px;font-family:Microsoft YaHei;"><b>飛機失事知多少?</b></p>
             <br>
             <br>
             <br>
@@ -84,7 +83,7 @@
             <p><span style="font-size:20px;font-family:Microsoft YaHei;">第二組</font></p>
         </div>
         <div class="slide" id="slide1-2">
-            <p><span style="font-size:30px;font-family:Microsoft YaHei;">視覺化方式認知飛安事故的發生情況</font></p>
+           <p><span style="font-size:30px;font-family:Microsoft YaHei;">視覺化方式認知飛安事故的發生情況</font></p>
             <br>
             <p><span style="font-size:30px;font-family:Microsoft YaHei;">Map:google map 觀看世界各地飛安事故</font></p>
             <br>
@@ -97,12 +96,13 @@
     <div class="section" id="section3">
 
         <div class="slide" id="slide2-1">
-        <p><span style="font-size:30px;font-family:Microsoft YaHei;">世界各國事故發生次數比例</font></p>
+         <p><span style="font-size:30px;font-family:Microsoft YaHei;">世界各國事故發生次數比例</font></p>
             <select id="area">
                 <option value='Continent' >World</option>
                 <option>Asia</option>
                 <option>Africa</option>
-                <option>Europe</option>               <option>Oceania</option>
+                <option>Europe</option>
+                <option>Oceania</option>
                 <option value='NAmerica'>North America</option>
                 <option value='SAmerica'>South America</option>
                 <option>Antarctica</option>
@@ -113,14 +113,16 @@
                 <option value='pie'>Pie Chart</option>
                 <option value='donut'>Donut Chart</option>
             </select>
-            <div id="chart"></div>
+            <div style="margin-left: 5%; margin-right: 5%;">
+                <div id="chart"></div>
+            </div>
         </div>
-        <div class="slide active" id="slide2-2">
-        <p><span style="font-size:30px;font-family:Microsoft YaHei;">各經緯度事故發生次數</font></p> 
-            <iframe src="Events-Lat-Lng/index.html" height="700px" width="1010px" style=" border:none"></iframe>
+        <div class="slide active" id="slide2-2">  
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">各經緯度事故發生次數</font></p>
+            <iframe src="Events-Lat-Lng/index.html" height="700px" width="85%" style=" border:none"></iframe>
         </div>
-        <div class="slide" id="slide2-3">
-        <p><span style="font-size:30px;font-family:Microsoft YaHei;">1908~2016事故發生次數</font></p>   
+        <div class="slide" id="slide2-3"> 
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">1908~2016事故發生次數</font></p>    
             <div id="year_chart"></div>
         </div>
         <div class="slide" id="slide2-4">
@@ -130,8 +132,9 @@
                 <option value='%Y%m'>By Month</option>
                 <option value='%Y%m%d'>By Day</option>
             </select>
-
-            <div id="fat_chart"></div>
+            <div style="margin-left: 5%; margin-right: 5%;">
+                <div id="fat_chart"></div>
+            </div>
         </div>
 
     </div> 
