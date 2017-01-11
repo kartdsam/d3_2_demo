@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Continuous scrolling - fullPage.js</title>
+    <title>飛機失事知多少?</title>
     <meta name="author" content="Matthew Howell" />
     <meta name="description" content="fullPage continuous scrolling demo." />
     <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
@@ -74,12 +74,21 @@
 <div id="fullpage">
     <div class="section active" id="section1">
         <div class="slide active" id="slide1-1">
-            <p><span style="font-size:40px;font-family:Microsoft YaHei;">CS+X:淺談資料視覺化與D3.js</span></p>
-            <p><span style="font-size:50px;font-family:Microsoft YaHei;"><b>飛機失事知多少?</b></p>
-            <p><span style="font-size:30px;font-family:Microsoft YaHei;">第二組</font></p>
+            
+            <p><span style="font-size:70px;font-family:Microsoft YaHei;"><b>飛機失事知多少?</b></p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p><span style="font-size:30px;font-family:Microsoft YaHei;">CS+X:淺談資料視覺化與D3.js</span></p>
+            <p><span style="font-size:20px;font-family:Microsoft YaHei;">第二組</font></p>
         </div>
         <div class="slide" id="slide1-2">
-            <p><span style="font-size:30px;font-family:Microsoft YaHei;">以視覺化方式認知飛安事故的發生情況</font></p>
+            <p><span style="font-size:30px;font-family:Microsoft YaHei;">視覺化方式認知飛安事故的發生情況</font></p>
+            <br>
+            <p><span style="font-size:30px;font-family:Microsoft YaHei;">Map:google map 觀看世界各地飛安事故</font></p>
+            <br>
+            <p><span style="font-size:30px;font-family:Microsoft YaHei;">Chart:各式圖表了解事故分布、次數、傷亡</font></p>
         </div>
     </div>
     <div class="section map-container" id="section2">
@@ -88,12 +97,12 @@
     <div class="section" id="section3">
 
         <div class="slide" id="slide2-1">
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">世界各國事故發生次數比例</font></p>
             <select id="area">
                 <option value='Continent' >World</option>
                 <option>Asia</option>
                 <option>Africa</option>
-                <option>Europe</option>
-                <option>Oceania</option>
+                <option>Europe</option>               <option>Oceania</option>
                 <option value='NAmerica'>North America</option>
                 <option value='SAmerica'>South America</option>
                 <option>Antarctica</option>
@@ -106,13 +115,16 @@
             </select>
             <div id="chart"></div>
         </div>
-        <div class="slide active" id="slide2-2">  
+        <div class="slide active" id="slide2-2">
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">各經緯度事故發生次數</font></p> 
             <iframe src="Events-Lat-Lng/index.html" height="700px" width="1010px" style=" border:none"></iframe>
         </div>
-        <div class="slide" id="slide2-3">  
+        <div class="slide" id="slide2-3">
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">1908~2016事故發生次數</font></p>   
             <div id="year_chart"></div>
         </div>
         <div class="slide" id="slide2-4">
+        <p><span style="font-size:30px;font-family:Microsoft YaHei;">1908~2016事故傷亡人數</font></p> 
             <select id="range">
                 <option value='%Y'>By Year</option>
                 <option value='%Y%m'>By Month</option>
@@ -125,7 +137,7 @@
     </div> 
     <div class="section" id="section4">
         <div class="wrapper_up">
-            <div class="circular_up"><img src="imgs/avatar1.png" alt="" /></div>
+            <div class="circular_up"><img src="imgs/avatar1.png" alt=""/></div>
             <div class="circular_up"><img src="imgs/avatar2.png" alt="" /></div>
             <div class="circular_up"><img src="imgs/avatar3.png" alt="" /></div>
             <div class="circular_up"><img src="imgs/avatar4.png" alt="" /></div>
